@@ -4,9 +4,9 @@
 		<view class="bg"></view>
 		<view class="main">
 			<view class="userinfo">
-				<image class="avatar" src="https://wx.qlogo.cn/mmopen/vi_32/vM0qx5z4BQUQU4icZNct8Oib0Q0ypMW6hdhejkBxrTzibvYHtdyaQI85hsWvL6PoA3ic3Jjwn99YdfxEj1ib7gvaJeQ/132"></image>
+				<image class="avatar" src="/static/images/home/headPicture.jpg"></image>
 				<view class="username">tinypuppet</view>
-				<view class="desc">使用钱包喜茶钱包支付（您还未开通喜茶钱包）</view>
+				<view class="desc">使用钱包爱宠钱包支付（您还未开通爱宠钱包）</view>
 			</view>
 			<view class="code-section">
 				<view class="mb-20">此二维码可累计积分(不支持付款)</view>

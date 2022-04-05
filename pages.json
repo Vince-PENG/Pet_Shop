@@ -2,7 +2,7 @@
 	"pages": [{
 		"path": "pages/home/home",
 		"style": {
-			"navigationBarTitleText": "喜茶GO",
+			"navigationBarTitleText": "爱宠の家",
 			"navigationStyle": "custom"
 		}
 	}, {
