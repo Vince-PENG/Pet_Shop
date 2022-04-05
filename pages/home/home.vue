@@ -9,14 +9,14 @@
 			<!-- section-1 begin -->
 			<view class="section-1">
 				<navigator class="item" open-type="switchTab" url="/pages/index/index" hover-class="none">
-					<image src="/static/images/home/home_icon_ziqu1.png" mode="widthFix"></image>
-					<view class="wenyue-font">门店自取</view>
-					<view class="text-color-assist">下单免排队</view>
+					<image src="/static/images/home/home_icon_main.png" mode="widthFix"></image>
+					<view class="wenyue-font">到店服务</view>
+					<view class="text-color-assist">快捷来店 无需预约</view>
 				</navigator>
 				<navigator class="item" open-type="navigate" url="/pages/addresses/addresses" hover-class="none">
 					<image src="/static/images/home/home_icon_waimai1.png" mode="widthFix"></image>
-					<view class="wenyue-font">外卖</view>
-					<view class="text-color-assist">无需接触 送喜到家</view>
+					<view class="wenyue-font">上门</view>
+					<view class="text-color-assist">24小时 服务到家</view>
 				</navigator>
 			</view>
 			<!-- section-2 end -->
@@ -25,17 +25,11 @@
 				<navigator class="item" open-type="switchTab" url="/pages/mart/mart" hover-class="none">
 					<view class="title">
 						<image src="/static/images/home/home_icon_baihuo1.png"></image>
-						<view>喜茶百货</view>
+						<view>萌宠百货</view>
 					</view>
 					<view class="tips">灵感商品 立即选购</view>
 				</navigator>
-				<navigator class="item" open-type="navigate" url="/pages/home/group-dinner" hover-class="none">
-					<view class="title">
-						<image src="/static/images/home/home_icon_qiye1.png"></image>
-						<view>企业团餐</view>
-					</view>
-					<view class="tips">50份起送</view>
-				</navigator>
+			
 			</view>
 			<!-- section-2 end -->
 			<view class="section-3">
@@ -45,7 +39,7 @@
 						<view class="neutra-font">63</view>
 					</view>
 					<view class="tips">
-						可兑换喜茶劵和丰富灵感周边
+						可兑换萌宠劵和丰富灵感周边
 					</view>
 				</navigator>
 				<navigator class="my-code" open-type="navigate" url="/pages/my/code" hover-class="none">
@@ -62,11 +56,11 @@
 		data() {
 			return {
 				swipers: [
-					"https://go.cdn.heytea.com/storage/ad/2020/05/21/bfd57914d80d4671b19f5d0ccc176cd5.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/05/24/49f9b50738dd47878cf1ab54c2eee2e0.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/05/01/e1c6915022c849fd9492377021aef454.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/04/27/db60b797c1cd4afabe9666e7df958ffd.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/05/21/4ba53dda599345bdaf28a08420dd1b6f.jpg"
+					"/static/images/petImages/main_slip_1.jpg",
+					"/static/images/petImages/main_slip_2.jpg",
+					"/static/images/petImages/main_slip_3.jpg",
+					"/static/images/petImages/main_slip_4.jpg",
+					"/static/images/petImages/main_slip_5.jpg"
 				]
 			}
 		},

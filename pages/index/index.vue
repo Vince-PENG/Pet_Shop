@@ -25,12 +25,12 @@
 						<button type="default" class="button" 
 								:class="{active: orderType == 'takein'}" plain 
 								hover-class="none" @tap="switchOrderType">
-							自取
+							到店
 						</button>
 						<button type="default" class="button" 
 								:class="{active: orderType == 'takeout'}" plain 
 								hover-class="none" @tap="switchOrderType">
-							外卖
+							上门
 						</button>
 					</view>
 					<!-- 外卖&自取switch end -->
@@ -77,13 +77,6 @@
 							</swiper-item>
 						</swiper>
 						<!-- 广告栏1 end -->
-						<!-- 广告栏2 begin -->
-						<swiper class="ads2" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" circular>
-							<swiper-item v-for="(ad, index) in ads2" :key="index">
-								<image :src="ad" class="w-100" mode="widthFix"></image>
-							</swiper-item>
-						</swiper>
-						<!-- 广告栏2 end -->
 					</view>
 					<!-- 商品 begin -->
 					<view class="products-list" v-for="(category, index) in categories" :key="index" :id="`products-${category.id}`">
@@ -160,16 +153,9 @@
 				currentCategoryId: 0,
 				notices: [],
 				ads1: [
-					"https://go.cdn.heytea.com/storage/ad/2020/05/28/752a5519e89541bd8417614c599cf8c3.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/05/24/38b7f686cf10449c85b0f5489d5d958e.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/05/21/2315beb5105944e8b795c5c0084ec99f.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/05/21/b88c6780a73249b0b0166784917a5046.jpg"
-				],
-				ads2: [
-					"https://go.cdn.heytea.com/storage/ad/2020/05/21/acfc6504f3074cf6b730f516adc558f6.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/04/26/2373600789c64752b2415293877ead40.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/04/22/515df8c726e740089ae4c55582b4ce09.jpg",
-					"https://go.cdn.heytea.com/storage/ad/2020/04/14/d0e51cb22c0a437293c0e6a879b59c7d.jpg"
+					"/static/images/order/order_upSlip_1.jpg",
+					"/static/images/order/order_upSlip_2.jpg",
+					"/static/images/order/order_upSlip_3.jpg"	
 				],
 				productModalVisible: false,
 				cartPopupShow: false,
