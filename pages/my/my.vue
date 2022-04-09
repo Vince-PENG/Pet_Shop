@@ -1,22 +1,22 @@
 <template>
 	<view class="container">
-		<image class="w-100" src="https://go.cdn.heytea.com/storage/products/2019/12/18/01954797f3fb470cb6ba1606476c658c.png" mode="widthFix"></image>
+		<image class="w-100" src="/static/images/my/my_backGroundImage.jpg" mode="widthFix"></image>
 		<view class="content">
 			<view class="welcome" @tap="openLoginPopup">
-				<view>你好 {{ isLogin ? userInfo.nickName : '立即登录开启喜茶星球之旅' }}</view>
-				<view class="font-size-base">灵感之茶，中国制造</view>
+				<view>你好 {{ isLogin ? userInfo.nickName : '立即登录开启爱宠之旅' }}</view>
+				<view class="font-size-base">爱由心生，宠爱有你</view>
 			</view>
 			<!-- member card begin -->
 			<view class="member-card">
 				<view class="info">
 					<view class="title">
-						<view class="wenyue-font" @tap="openBenefits">GO会员</view>
+						<view class="wenyue-font" @tap="openBenefits">爱宠会员</view>
 						<view class="tips" @tap="openMember">
-							<view>成为星球会员享双倍积分</view>
+							<view>成为爱宠会员享双倍积分</view>
 							<image src="/static/images/my/icon_arrow.png"></image>
 						</view>
 					</view>
-					<image @tap="info" src="https://wx.qlogo.cn/mmopen/vi_32/Hx7MFkCEmZVHziaTTiaHSiaCs4ApnH5CD0nYOhOg1nYUUMYtxMXkL6L4VL5icRfO5w4LGzW5ib0FZicwj2MficyYfZgCw/132" class="avatar"></image>
+					<image @tap="info" src="/static/images/home/headPicture.jpg" class="avatar"></image>
 					<view class="badage">
 						Lv1
 					</view>
@@ -30,48 +30,10 @@
 					<view class="grid" hover-class="opacity-6">
 						<image src="/static/images/my/me_icon_quan.png"></image>
 						<view class="value">0</view>
-						<view class="title">喜茶劵</view>
+						<view class="title">爱宠劵</view>
 					</view>
-					<navigator class="grid" open-type="navigate" url="/pages/my/wallet">
-						<image src="/static/images/my/me_icon_wallet.png"></image>
-						<view class="value">0.00</view>
-						<view class="title">钱包</view>
-					</navigator>
-					<navigator class="grid" open-type="navigate" url="/pages/gifts/gifts">
-						<image src="/static/images/my/me_icon_gift_card.png"></image>
-						<view class="value">0</view>
-						<view class="title">阿喜有礼</view>
-					</navigator>
 				</view>
 			</view>
-			<!-- member card end -->
-			<!-- 星球播报 begin -->
-			<view class="xinqiubobao">
-				<view class="title">星球播报</view>
-				<swiper class="swiper" next-margin="50px" autoplay :interval="5000" :duration="500" circular>
-					<swiper-item class="swiper-item" v-for="(item, index) in boardcast" :key="index">
-						<view class="swiper-item-wrapper">
-							<image :src="item.coverPic" class="img"></image>
-							<view class="desc">
-								<view class="title">{{ item.title }}</view>
-								<view class="subtitle">{{ item.subtitle }}</view>
-							</view>
-						</view>
-					</swiper-item>
-				</swiper>
-			</view>
-			<!-- 星球播报 end -->
-			<!-- 任务中心 begin -->
-			<view class="task-center" @tap="taskCenter">
-				<view class="intro">
-					<view class="title">任务中心</view>
-					<view class="subtitle">MISSION CENTER</view>
-				</view>
-				<view class="image-wrapper">
-					<image src="/static/images/my/b3d3a98e3c7f450aaa32fbec6aecdfaf.png"></image>
-				</view>
-			</view>
-			<!-- 任务中心 end -->
 		</view>
 		<!-- 开通礼包 begin -->
 		<view class="open-gift">
@@ -81,35 +43,14 @@
 			</view>
 			<view class="row">
 				<view class="grid" @tap="openMember">
-					<image src="/static/images/my/member_benefits/me_rights_icon_free.png"></image>
+					<image src="/static/images/my/my_tijian.png"></image>
 					<view class="title">
-						<view>星球赠饮券</view>
+						<view>免费体检券</view>
 						<view class="number">x1</view>
 					</view>
 				</view>
 				<view class="grid" @tap="openMember">
-					<image src="/static/images/my/member_benefits/me_rights_icon_1jia1.png"></image>
-					<view class="title">
-						<view>买一赠一券</view>
-						<view class="number">x1</view>
-					</view>
-				</view>
-				<view class="grid" @tap="openMember">
-					<image src="/static/images/my/member_benefits/me_rights_icon_2jia1.png"></image>
-					<view class="title">
-						<view>买二赠一券</view>
-						<view class="number">x2</view>
-					</view>
-				</view>
-				<view class="grid" @tap="openMember">
-					<image src="/static/images/my/member_benefits/me_rights_icon_qingshi.png"></image>
-					<view class="title">
-						<view>喜茶轻食券</view>
-						<view class="number">x2</view>
-					</view>
-				</view>
-				<view class="grid" @tap="openMember">
-					<image src="/static/images/my/member_benefits/me_rights_icon_youxian_new.png"></image>
+					<image src="/static/images/my/my_youxian.png"></image>
 					<view class="title">
 						<view>优先券</view>
 						<view class="number">x2</view>
@@ -126,21 +67,15 @@
 		</view>
 		<!-- 开通礼包 end -->
 		
-		<list-cell hover arrow @click="myCode">
-			<view class="list-cell-wrapper">
-				<view view="title">会员码</view>
-				<view class="subtitle">门店扫码积分、喜茶钱包和阿喜有礼卡支持</view>
-			</view>
-		</list-cell>
 		<list-cell hover arrow>
 			<view class="list-cell-wrapper">
 				<view view="title">兑换中心</view>
-				<view class="subtitle">兑换星球会员、喜茶券和阿喜有礼卡</view>
+				<view class="subtitle">兑换爱宠会员、爱宠券</view>
 			</view>
 		</list-cell>
 		<list-cell hover arrow>
 			<view class="list-cell-wrapper">
-				<view view="title">星球封面</view>
+				<view view="title">爱宠封面</view>
 			</view>
 		</list-cell>
 		<list-cell hover arrow>

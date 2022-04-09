@@ -930,7 +930,6 @@ export default [
     "sort": 13,
     "category_image_url": "https://go.cdn.heytea.com/storage/category/2020/04/21/6d5e68f5b2bd4fa2bb50f94e6ac0a512.jpg",
     "products": [
-      
       {
         "id": 41,
         "name": "联系我们",

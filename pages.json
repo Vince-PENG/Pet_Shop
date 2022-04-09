@@ -69,7 +69,7 @@
 	}, {
 		"path": "pages/my/member",
 		"style": {
-			"navigationBarTitleText": "开通星球会员",
+			"navigationBarTitleText": "开通爱宠会员",
 			"navigationBarBackgroundColor": "#f6f6f6"
 		}
 	}, {
