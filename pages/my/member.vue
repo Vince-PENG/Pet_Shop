@@ -1,46 +1,25 @@
 <template>
 	<view class="container">
 		<view class="header">
-			<image src="https://static.heytea.com/weapp/images/member/me_kaitong_img_card.png" class="card-img" mode="widthFix"></image>
-			<view class="tips">付费购买星球会员卡享12个月星球会员权益</view>
+			<image src="/static/images/my/my_member.png" class="card-img" mode="widthFix"></image>
+			<view class="tips">付费购买爱宠会员卡享12个月爱宠会员权益</view>
 		</view>
 		<!-- 开通礼包 begin -->
 		<view class="card">
 			<view class="card-title">
 				<view class="title">开通礼包</view>
-				<view class="subtitle">开通/续费星球会员后，立即发放</view>
+				<view class="subtitle">开通/续费爱宠会员后，立即发放</view>
 			</view>
 			<view class="grids">
-				<view class="grid">
-					<image src="/static/images/my/member_benefits/me_rights_icon_free.png"></image>
+				<view class="grid" @tap="openMember">
+					<image src="/static/images/my/my_tijian.png"></image>
 					<view class="title">
-						<view>星球赠饮券</view>
+						<view>免费体检券</view>
 						<view class="number">x1</view>
 					</view>
 				</view>
 				<view class="grid">
-					<image src="/static/images/my/member_benefits/me_rights_icon_1jia1.png"></image>
-					<view class="title">
-						<view>买一赠一券</view>
-						<view class="number">x1</view>
-					</view>
-				</view>
-				<view class="grid">
-					<image src="/static/images/my/member_benefits/me_rights_icon_2jia1.png"></image>
-					<view class="title">
-						<view>买二赠一券</view>
-						<view class="number">x2</view>
-					</view>
-				</view>
-				<view class="grid">
-					<image src="/static/images/my/member_benefits/me_rights_icon_qingshi.png"></image>
-					<view class="title">
-						<view>喜茶轻食券</view>
-						<view class="number">x2</view>
-					</view>
-				</view>
-				<view class="grid">
-					<image src="/static/images/my/member_benefits/me_rights_icon_youxian_new.png"></image>
+					<image src="/static/images/my/my_youxian.png"></image>
 					<view class="title">
 						<view>优先券</view>
 						<view class="number">x2</view>
@@ -96,23 +75,12 @@
 		<!-- 星球会员权益 begin -->
 		<view class="card">
 			<view class="card-title">
-				<view class="title">星球会员权益</view>
-				<view class="subtitle">星球会员有效期内可使用</view>
+				<view class="title">爱宠会员权益</view>
+				<view class="subtitle">爱宠会员有效期内可使用</view>
 			</view>
 			<view class="card-body">
 				<view class="row">
-					<view class="title">
-						<view>生日赠饮券</view>
-						<view class="badge danger">免排队，优先制作</view>
-					</view>
-					<view class="subtitle">x1</view>
-				</view>
-				<view class="row">
-					<view class="title">星球会员开通纪念日赠饮劵</view>
-					<view class="subtitle">x1</view>
-				</view>
-				<view class="row">
-					<view class="title">5.28会员日赠饮劵</view>
+					<view class="title">爱宠会员开通纪念日100减20券</view>
 					<view class="subtitle">x1</view>
 				</view>
 				<view class="row">
@@ -127,7 +95,7 @@
 		<view class="footer">
 			<view class="agreement">
 				<checkbox :checked="agree" color="#DBA871"/>
-				<view>同意<text class="text-color-primary">《喜茶星球(付费)会员服务协议》</text></view>
+				<view>同意<text class="text-color-primary">《爱宠(付费)会员服务协议》</text></view>
 			</view>
 			<view class="bottom">
 				<view class="font-size-lg font-weight-bold ml-30">

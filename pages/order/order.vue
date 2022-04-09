@@ -3,7 +3,6 @@
 		<view class="navbar">
 			<button type="default" plain class="talk-btn">
 				<image src="/static/images/order/order_icon_talk2.0.png"></image>
-				<view>想对你说</view>
 			</button>
 		</view>
 		<view class="tabbar">
@@ -14,10 +13,10 @@
 			<!-- 当前订单 begin -->
 			<swiper-item @touchmove.stop="handleSwiperItemChange">
 				<view class="no-order-content">
-					<image src="https://go.cdn.heytea.com/storage/ad/2020/05/20/0bdb360866d94aa4a4404c0b676a1982.jpg"></image>
+					<image src="/static/images/order/shop_pack_empty.png"></image>
 					<view class="tips">
 						<view>您今天还没有下单</view>
-						<view>快去选择一杯喜欢的茶吧</view>
+						<view>快去选择喜欢的商品吧</view>
 					</view>
 					<button type="primary" class="font-size-lg" hover-class="none">去下单</button>
 				</view>

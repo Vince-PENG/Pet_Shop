@@ -7,8 +7,8 @@ export default {
 	"delivery_fee": "0.00",
 	"prior": 0,
 	"pickup_type": "自提",
-	"total_fee": 33.00,
-	"payment": "33.00",
+	"total_fee": 149.00,
+	"payment": "149.00",
 	"id": 55596826,
 	"is_takeaway": false,
 	"alipay_invoice_button": true,
@@ -26,11 +26,11 @@ export default {
 			"images": {
 				"data": [{
 						"id": 88364,
-						"url": "https://go.cdn.heytea.com/storage/product/2019/11/12/5ad4996d0fdd4f3a85a25b8fe95a4db8.jpg"
+						"url": "/static/images/order/phy_cat_1.jpg"
 					},
 					{
 						"id": 121233,
-						"url": "https://go.cdn.heytea.com/storage/product/2020/03/11/78ad5460e80d4587a8f07abc4baf76e9.jpg"
+						"url": "/static/images/order/phy_cat_1.jpg"
 					}
 				]
 			},
@@ -46,89 +46,18 @@ export default {
 			"materials": [{
 				"material_group_id": 3,
 				"price": "0.00",
-				"name": "加热(推荐)",
 				"material_id": 41
 			}],
-			"price": "10.00",
-			"sname": "流沙牛角",
+			"price": "149.00",
+			"sname": "常见传染病检测套餐",
 			"product_id": 161,
-			"total_fee": "10.00",
+			"total_fee": "149.00",
 			"activity_type": 0,
-			"name": "流沙牛角",
+			"name": "常见传染病检测套餐",
 			"attributes": {
 				"data": []
 			},
 			"id": 100194060
-		},
-		{
-			"activity_name": "",
-			"images": {
-				"data": [{
-						"id": 64565,
-						"url": "https://go.cdn.heytea.com/product/2019/08/02/tmp/a5a9bdd8b9db4b37a6d20df8e1aedf87.jpg"
-					},
-					{
-						"id": 116583,
-						"url": "https://go.cdn.heytea.com/storage/product/2020/03/03/436ce2f2b562478bae451aefed7a0c97.jpg"
-					}
-				]
-			},
-			"quantity": 1,
-			"discount_price": 0,
-			"sku_id": 1373,
-			"specifications": {
-				"data": []
-			},
-			"name_image": "",
-			"show_trademark": false,
-			"category_id": 11,
-			"materials": [{
-					"material_group_id": 27,
-					"price": "0.00",
-					"name": "常规吸管",
-					"material_id": 409
-				},
-				{
-					"material_group_id": 12,
-					"price": "0.00",
-					"name": "有芋头颗粒(推荐)",
-					"material_id": 230
-				},
-				{
-					"material_group_id": 6,
-					"price": "0.00",
-					"name": "标准（推荐）",
-					"material_id": 149
-				},
-				{
-					"material_group_id": 5,
-					"price": "0.00",
-					"name": "冰沙（推荐）",
-					"material_id": 140
-				},
-				{
-					"material_group_id": 4,
-					"price": "0.00",
-					"name": "正常糖(推荐)",
-					"material_id": 379
-				},
-				{
-					"material_group_id": 3,
-					"price": "0.00",
-					"name": "正常(推荐)",
-					"material_id": 558
-				}
-			],
-			"price": "23.00",
-			"sname": "爆芋泥波波冰",
-			"product_id": 514,
-			"total_fee": "23.00",
-			"activity_type": 0,
-			"name": "爆芋泥波波冰",
-			"attributes": {
-				"data": []
-			},
-			"id": 100194061
 		}
 	],
 	"status": "TRADE_CLOSED",
@@ -156,7 +85,7 @@ export default {
 		"longitude": "113.955292",
 		"nearby_shop_count": 0,
 		"contact_name": "喜茶君",
-		"address": "华润万象天地SL187号商铺",
+		"address": "正大广场二楼188号",
 		"is_current_city": null,
 		"estimate_time_type": 1,
 		"takeaway_limit_cup": "5",
@@ -166,8 +95,8 @@ export default {
 		"support_mt_takeaway": 1,
 		"support_sf_takeaway": 0,
 		"district_code": "440305",
-		"district": "南山区",
-		"name": "万象天地PINK店",
+		"district": "陆家嘴",
+		"name": "正大广场爱宠一号店",
 		"scene_code": "http://go.heytea.com/storage/shop/scene_code/shop_id_28.png"
 	},
 	"activity": [],
@@ -196,5 +125,5 @@ export default {
 	"takeaway_time_immediately_show": "2019-10-20 13:14:29",
 	"pickup_time_period": "",
 	"trade_type": "JSAPI",
-	"remarks": "不打包"
+	"remarks": ""
 }

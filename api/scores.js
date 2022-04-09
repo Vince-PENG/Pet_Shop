@@ -64,26 +64,4 @@ export default [{
 	"payment": "28.00",
 	"shopName": "益田假日天地GO店",
 	"client": 1
-}, {
-	"id": 40618359,
-	"scoreChange": 2,
-	"method": 7,
-	"description": "每日签到（奖励随机翻倍）",
-	"createAt": "2019-10-21 15:16:17",
-	"sourceType": null,
-	"orderNo": null,
-	"payment": null,
-	"shopName": null,
-	"client": 1
-}, {
-	"id": 40415803,
-	"scoreChange": 16,
-	"method": 1,
-	"description": "购买 流沙牛角 等2件商品",
-	"createAt": "2019-10-20 12:29:30",
-	"sourceType": "App\\Models\\Order",
-	"orderNo": "755015201910201229255435",
-	"payment": "33.00",
-	"shopName": "万象天地PINK店",
-	"client": 1
 }]

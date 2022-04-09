@@ -10,7 +10,7 @@
 			<view class="order-box">
 				<image src="/static/images/order/icon_making.png" class="status-icon"/>
 				<view class="text-color-primary font-size-lg font-weight-bold mb-10">订单已完成</view>
-				<view class="text-color-assist font-size-sm">感谢您对喜茶的支持，欢迎再次光临</view>
+				<view class="text-color-assist font-size-sm">感谢您的支持，欢迎再次光临</view>
 			</view>
 			<view class="flex-fill overflow-auto">
 				<view class="order-info">
@@ -52,7 +52,7 @@
 						<view class="w-100 d-flex flex-column font-size-extra-sm text-color-assist">
 							<view class="mb-10">如需退款，请致电门店</view>
 							<view class="mb-10">下单时间：{{ order.paid_at }}</view>
-							<view class="mb-10">取茶号：{{ order.pickup_no }}</view>
+							<view class="mb-10">位号：{{ order.pickup_no }}</view>
 							<view class="mb-10">订单编号：{{ order.no }}</view>
 							<view class="mb-10">备注信息：{{ order.remarks }}</view>
 						</view>

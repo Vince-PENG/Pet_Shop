@@ -4,7 +4,7 @@
 			<view class="header">
 				<view class="order-type">
 					<view class="font-weight-bold">门店订单</view>
-					<view class="extra">自提/外送</view>
+					<view class="extra">到店/外送</view>
 				</view>
 				<view class="d-flex align-items-center" @tap="clear">
 					<image src="/static/images/common/delete.png" class="delete-btn"></image>
