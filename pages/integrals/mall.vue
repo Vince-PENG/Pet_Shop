@@ -15,8 +15,7 @@
 		<!-- 可用积分 end -->
 		<view class="integrals-mall">
 			<view class="navbar">
-				<view class="item" :class="{active: !memberType}" @tap="handleSwitchMemberType(0)">GO会员专区</view>
-				<view class="item" :class="{active: memberType}" @tap="handleSwitchMemberType(1)">星球会员专区</view>
+				<view class="item" :class="{active: !memberType}" @tap="handleSwitchMemberType(0)">爱宠会员专区</view>
 			</view>
 			<view class="list-wrapper">
 				

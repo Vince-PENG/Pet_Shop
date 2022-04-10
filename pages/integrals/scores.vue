@@ -2,7 +2,7 @@
 	<view class="container">
 		<view class="header">
 			<view class="mb-30">当前积分</view>
-			<view class="value">74</view>
+			<view class="value">736</view>
 			<view class="rules">
 				<image src="/static/images/my/icon_rules.png" class="rules-icon"></image>
 				<view>积分规则</view>

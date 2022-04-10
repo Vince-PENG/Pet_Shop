@@ -16,7 +16,7 @@
 				<navigator class="item" open-type="navigate" url="/pages/addresses/addresses" hover-class="none">
 					<image src="/static/images/home/home_icon_waimai1.png" mode="widthFix"></image>
 					<view class="wenyue-font">上门</view>
-					<view class="text-color-assist">24小时 服务到家</view>
+					<view class="text-color-assist">快速上门 服务到家</view>
 				</navigator>
 			</view>
 			<!-- section-2 end -->
