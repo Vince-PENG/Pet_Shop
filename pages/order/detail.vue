@@ -9,7 +9,7 @@
 		<view class="content" v-if="Object.keys(order).length>0">
 			<view class="order-box">
 				<image src="/static/images/order/icon_making.png" class="status-icon"/>
-				<view class="text-color-primary font-size-lg font-weight-bold mb-10">订单已完成</view>
+				<view class="text-color-primary font-size-lg font-weight-bold mb-10">付款成功</view>
 				<view class="text-color-assist font-size-sm">感谢您的支持，欢迎再次光临</view>
 			</view>
 			<view class="flex-fill overflow-auto">
@@ -51,10 +51,10 @@
 					<list-cell padding="30rpx 40rpx" last bgcolor="#f6f6f6" style="border-radius: 0 0 30rpx 30rpx;">
 						<view class="w-100 d-flex flex-column font-size-extra-sm text-color-assist">
 							<view class="mb-10">如需退款，请致电门店</view>
-							<view class="mb-10">下单时间：{{ order.paid_at }}</view>
+							<view class="mb-10">下单时间：2022-03-31 12:29:25</view>
 							<view class="mb-10">位号：{{ order.pickup_no }}</view>
 							<view class="mb-10">订单编号：{{ order.no }}</view>
-							<view class="mb-10">备注信息：{{ order.remarks }}</view>
+							<view class="mb-10">备注：4.1日上午9:00到店 </view>
 						</view>
 					</list-cell>
 				</view>

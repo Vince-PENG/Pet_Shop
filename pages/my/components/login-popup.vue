@@ -6,15 +6,15 @@
 			</view>
 			<view class="d-flex flex-fill flex-column justify-content-between">
 				<view class="d-flex flex-column">
-					<view class="font-size-extra-lg font-weight-bold text-color-base mb-30">欢迎登陆喜茶星球~</view>
+					<view class="font-size-extra-lg font-weight-bold text-color-base mb-30">欢迎登陆~</view>
 					<view class="font-size-base text-color-assist">登录后消费可获取积分，享受更好的服务体验</view>
 				</view>
 				<view class="d-flex flex-column">
 					<button type="primary" class="w-100 font-size-lg mb-30" open-type="getUserInfo" @getuserinfo="getUserInfo">微信一键登陆</button>
 					<view class="text-center mb-30 font-size-sm text-color-assist">
-						点击登陆喜茶GO，即表示已阅读并同意<font class="text-color-primary">《喜茶隐私政策》</font>
+						点击登陆萌宠星球，即表示已阅读并同意<font class="text-color-primary">《萌宠隐私政策》</font>
 					</view>
-					<view class="text-center font-primary font-size-sm text-color-primary">《喜茶GO小程序服务指南》</view>
+					<view class="text-center font-primary font-size-sm text-color-primary">《萌宠小程序服务指南》</view>
 				</view>
 			</view>
 		</view>

@@ -16,7 +16,7 @@
 		<view class="p-30 bg-white mb-20 font-size-sm">
 			<view class="mb-40 d-flex">
 				<view class="mr-40 text-color-assist">品牌</view>
-				<view>爱宠</view>
+				<view>萌宠</view>
 			</view>
 			<view class="d-flex align-items-center">
 				<view class="mr-40 text-color-assist">发货</view>

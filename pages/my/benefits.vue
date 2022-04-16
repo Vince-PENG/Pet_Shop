@@ -3,7 +3,7 @@
 		<view class="section">
 			<view class="d-flex justify-content-between align-items-center pt-40 pb-40">
 				<view class="font-size-extra-lg">{{ userInfo.nickName }}</view>
-				<button type="primary" plain class="member-btn" @tap="member">登录喜茶星球</button>
+				<button type="primary" plain class="member-btn" @tap="member">登录萌宠星球</button>
 			</view>
 			<view class="experience-card">
 				<view class="d-flex">
@@ -11,7 +11,7 @@
 					<image src="/static/images/common/icon_about.png" class="about-icon"></image>
 				</view>
 				<view>
-					<view class="font-size-base">当前GO经验值60/299</view>
+					<view class="font-size-base">当前萌星经验值60/299</view>
 					<view class="process-box">
 						 <progress :percent="60/299*100" border-radius="4px" :stroke-width="4" activeColor="#343434" backgroundColor="#D0D0D0"/>
 					</view>
@@ -19,7 +19,7 @@
 			</view>
 			<view class="benefit-card">
 				<view class="header">
-					<view class="title">等级权益</view>
+					<view class="title">会员权益</view>
 				</view>
 				<view class="grid">
 					<view class="item" v-for="(item, index) in benefits" :key="index">
@@ -45,7 +45,7 @@
 		<view class="bg-white pb-30">
 			<list-cell padding="30rpx 40rpx" last arrow hover @click="memberBenefit">
 				<view class="w-100 d-flex align-items-center">
-					查看星球会员权益
+					查看萌星会员权益
 				</view>
 			</list-cell>
 			<list-cell padding="30rpx 40rpx" last arrow hover>
@@ -72,16 +72,16 @@
 		data() {
 			return {
 				benefits: [
-					{title: '喜茶满减券', image: '/static/images/my/member_benefits/me_rights_icon_1jia1.png'},
-					{title: '喜茶买赠券', image: '/static/images/my/member_benefits/me_rights_icon_qingshi.png'}
+					{title: '洗护满减券 ', image: '/static/images/my/member_benefits/me_rights_icon_1jia1.png'},
+					{title: '会员八五折', image: '/static/images/my/member_benefits/me_rights_icon_qingshi.png'}
 				],
 				disBenefits: [
-					{title: '星球赠饮劵', image: '/static/images/my/member_benefits/me_rights_icon_free_dis.png'},
-					{title: '买一送一劵', image: '/static/images/my/member_benefits/me_rights_icon_1jia1_dis.png'},
-					{title: '买二送一劵', image: '/static/images/my/member_benefits/me_rights_icon_2jia1_dis.png'},
-					{title: '喜茶轻食劵', image: '/static/images/my/member_benefits/me_rights_icon_qingshi_dis.png'},
-					{title: '优先券', image: '/static/images/my/member_benefits/me_rights_icon_youxian_new_dis.png'},
-					{title: '免运费劵', image: '/static/images/my/member_benefits/me_rights_icon_waimai_new_dis.png'}
+					{title: '洗护免费券', image: '/static/images/my/member_benefits/me_rights_icon_free_dis.png'},
+					{title: '免费体检劵', image: '/static/images/my/member_benefits/me_rights_icon_1jia1_dis.png'},
+					{title: '免费疫苗劵', image: '/static/images/my/member_benefits/me_rights_icon_2jia1_dis.png'},
+					{title: '满599-200劵', image: '/static/images/my/member_benefits/me_rights_icon_qingshi_dis.png'},
+					{title: '满299-100券', image: '/static/images/my/member_benefits/me_rights_icon_youxian_new_dis.png'},
+					{title: '满199-50券', image: '/static/images/my/member_benefits/me_rights_icon_waimai_new_dis.png'}
 				]
 			}
 		},

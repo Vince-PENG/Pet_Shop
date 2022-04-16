@@ -2,7 +2,7 @@
 	<view class="container">
 		<view class="content-section">
 			<view class="section-header">
-				<view class="title">猜 你 喜 欢</view>
+				<view class="title">热 门 推 荐</view>
 				<view class="subtitle">YOU MAY ALSO LIKE</view>
 			</view>
 		</view>

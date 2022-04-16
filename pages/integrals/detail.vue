@@ -48,7 +48,7 @@
 			<list-cell :padding="padding" :hover="false" last>
 				<view class="row">
 					<view class="label">可用场景</view>
-					<view class="text">仅限在爱宠の家小程序下单时可用</view>
+					<view class="text">仅限在萌宠の家小程序下单时可用</view>
 				</view>
 			</list-cell>
 			<list-cell :padding="padding" :hover="false" last>

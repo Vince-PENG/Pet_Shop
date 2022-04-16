@@ -25,7 +25,7 @@
 				<navigator class="item" open-type="switchTab" url="/pages/mart/mart" hover-class="none">
 					<view class="title">
 						<image src="/static/images/home/home_icon_baihuo1.png"></image>
-						<view>萌宠百货</view>
+						<view>周边定制</view>
 					</view>
 					<view class="tips">灵感商品 立即选购</view>
 				</navigator>

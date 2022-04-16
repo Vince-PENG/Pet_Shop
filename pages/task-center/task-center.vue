@@ -82,11 +82,11 @@ export default {
 		return {
 			periodTasks: [
 				{ desc: '每周线上消费3次(0/3)', value: 10, is_completed: false, is_enable: false },
-				{ desc: '每周消费喜茶食验室1次', value: 5, is_completed: false, is_enable: true },
+				{ desc: '每周宠物洗护1次', value: 5, is_completed: false, is_enable: true },
 				{ desc: '每日签到（奖励随机翻倍）', value: 1, is_completed: true, is_enable: false }
 			],
 			growTasks: [
-				{ desc: '首次成为星球会员', value: 50, is_completed: false, is_enable: false },
+				{ desc: '首次成为会员萌星', value: 50, is_completed: false, is_enable: false },
 				{ desc: '累计消费10次(3/10)', value: 25, is_completed: false, is_enable: false },
 				{ desc: '累计消费30次(3/30)', value: 30, is_completed: false, is_enable: false },
 				{ desc: '累计消费60次(3/60)', value: 40, is_completed: false, is_enable: false },

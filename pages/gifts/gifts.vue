@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 	<view class="container">
 		<view class="tab-bar">
 			<view class="item" v-for="(item, index) in tabBars" :key="index" 
@@ -44,7 +44,7 @@
 					</view>
 					<view class="right">
 						<image src="/static/images/my/icon_giftcard.png"></image>
-						<view>阿喜有礼卡兑换</view>
+						<view>萌宠有礼卡兑换</view>
 					</view>
 				</view>
 				<view class="content">
@@ -53,7 +53,7 @@
 							<view class="h-100 d-flex flex-column align-items-center">
 								<template v-if="!MyCanUseGiftCards.length">
 									<image src="/static/images/my/img_giftcard_empty.png" class="giftcard-empty-img"></image>
-									<view class="tips" style="margin: 50rpx 0;">暂无阿喜有礼</view>
+									<view class="tips" style="margin: 50rpx 0;">暂无萌宠有礼</view>
 									<button type="primary" class="font-size-lg" style="padding: 0 80rpx;" @tap="handleTabChange(0)">
 										现在去选购
 									</button>
@@ -64,7 +64,7 @@
 							<view class="h-100 d-flex flex-column align-items-center">
 								<template v-if="!MyCanUseGiftCards.length">
 									<image src="/static/images/my/img_giftcard_empty.png" class="giftcard-empty-img"></image>
-									<view class="tips" style="margin: 50rpx 0;">暂无阿喜有礼</view>
+									<view class="tips" style="margin: 50rpx 0;">暂无萌宠有礼</view>
 									<button type="primary" class="font-size-lg" style="padding: 0 80rpx;" @tap="handleTabChange(0)">
 										现在去选购
 									</button>
@@ -94,7 +94,7 @@
 		data() {
 			return {
 				giftCards: [],
-				tabBars: ['购买阿喜有礼', '我的阿喜有礼'],
+				tabBars: ['购买萌宠有礼', '我的萌宠有礼'],
 				currentTabIndex: 0,
 				currentTab2Index: 0,
 				myGiftCards: [],
@@ -291,3 +291,4 @@
 	height: 291rpx;
 }
 </style>
+ -->

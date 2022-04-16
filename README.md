@@ -31,7 +31,7 @@ github地址: [https://github.com/Vince-PENG/Pet_Shop.git](https://github.com/Vi
 - 我的-成为星球会员
 - 我的-个人资料
 - 我的-钱包
-- 我的-阿喜有礼
+- 我的-萌宠有礼
 - 会员码
 - 任务中心
 

@@ -12,18 +12,18 @@ const store = new Vuex.Store({
 		addresses: [{
 			"id": 1,
 			"user_id": 1,
-			"name": "梁先生",
-			"phone": "18666610100",
-			"gender": 0,
+			"name": "tinypuppet",
+			"phone": "18226281000",
+			"gender": 1,
 			"address": "有间大厦",
-			"complete_address": "广东省深圳市宝安区福海大道118号",
+			"complete_address": "九华南路189号",
 			"description": "ABC1234",
 			"latitude": "",
 			"longitude": "",
 			"is_default": 1
 		}],
 		address: {},
-		remark: '不打包'
+		remark: '明天下午三点到店'
 	},
 	mutations: {
 		SET_ORDER_TYPE(state, orderType) {
