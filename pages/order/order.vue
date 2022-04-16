@@ -15,10 +15,10 @@
 				<view class="no-order-content">
 					<image src="/static/images/order/shop_pack_empty.png"></image>
 					<view class="tips">
-						<view>您今天还没有下单</view>
+						<view>当前没有订单</view>
 						<view>快去选择喜欢的商品吧</view>
 					</view>
-					<button type="primary" class="font-size-lg" hover-class="none">去下单</button>
+					<button type="primary" class="font-size-lg" hover-class="none">去选购</button>
 				</view>
 			</swiper-item>
 			<!-- 当前订单 end -->

@@ -4,12 +4,12 @@
 		<view class="bg"></view>
 		<view class="main">
 			<view class="userinfo">
-				<image class="avatar" src="/static/images/home/headPicture.jpg"></image>
+				<image class="avatar" src="/static/images/my/02.jpg"></image>
 				<view class="username">tinypuppet</view>
-				<view class="desc">使用钱包爱宠钱包支付（您还未开通爱宠钱包）</view>
+				<view class="desc">使用钱包萌宠钱包支付（您还未开通萌宠钱包）</view>
 			</view>
 			<view class="code-section">
-				<view class="mb-20">此二维码可累计积分(不支持付款)</view>
+				<view class="mb-20">此二维码可累计积分(支持付款)</view>
 				<!-- qrcode begin -->
 				<canvas canvas-id="memberCode" style="width: 350rpx; height: 350rpx;"></canvas>
 				<!-- qrcode end -->

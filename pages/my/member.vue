@@ -1,14 +1,14 @@
-<template>
+ <template>
 	<view class="container">
 		<view class="header">
 			<image src="/static/images/my/my_member.png" class="card-img" mode="widthFix"></image>
-			<view class="tips">付费购买爱宠会员卡享12个月爱宠会员权益</view>
+			<view class="tips">付费购买萌宠会员卡享12个月萌宠会员权益</view>
 		</view>
 		<!-- 开通礼包 begin -->
 		<view class="card">
 			<view class="card-title">
 				<view class="title">开通礼包</view>
-				<view class="subtitle">开通/续费爱宠会员后，立即发放</view>
+				<view class="subtitle">开通/续费萌宠会员后，立即发放</view>
 			</view>
 			<view class="grids">
 				<view class="grid" @tap="openMember">
@@ -48,15 +48,15 @@
 					<view class="subtitle">x1/月</view>
 				</view>
 				<view class="row">
-					<view class="title">满35减3劵</view>
+					<view class="title">满199减50劵</view>
 					<view class="subtitle">x1/月</view>
 				</view>
 				<view class="row">
-					<view class="title">满60减5劵</view>
+					<view class="title">满减5劵</view>
 					<view class="subtitle">x1/月</view>
 				</view>
 				<view class="row">
-					<view class="title">整单9折</view>
+					<view class="title">整单八折</view>
 					<view class="subtitle">x1/月</view>
 				</view>
 				<view class="row">
@@ -75,12 +75,12 @@
 		<!-- 星球会员权益 begin -->
 		<view class="card">
 			<view class="card-title">
-				<view class="title">爱宠会员权益</view>
-				<view class="subtitle">爱宠会员有效期内可使用</view>
+				<view class="title">萌宠会员权益</view>
+				<view class="subtitle">萌宠会员有效期内可使用</view>
 			</view>
 			<view class="card-body">
 				<view class="row">
-					<view class="title">爱宠会员开通纪念日100减20券</view>
+					<view class="title">萌宠会员开通纪念日100减20券</view>
 					<view class="subtitle">x1</view>
 				</view>
 				<view class="row">
@@ -95,7 +95,7 @@
 		<view class="footer">
 			<view class="agreement">
 				<checkbox :checked="agree" color="#DBA871"/>
-				<view>同意<text class="text-color-primary">《爱宠(付费)会员服务协议》</text></view>
+				<view>同意<text class="text-color-primary">《萌宠(付费)会员服务协议》</text></view>
 			</view>
 			<view class="bottom">
 				<view class="font-size-lg font-weight-bold ml-30">

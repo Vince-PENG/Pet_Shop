@@ -17,7 +17,7 @@
 								'/static/images/order/order_icon_address.png'" 
 								class="left-icon" />
 						<!-- 为了测试方便，这里使用静态店铺数据 -->
-						<view class="address">{{ orderType == 'takeout' ? address.complete_address : '中心城店' }}</view>
+						<view class="address">{{ orderType == 'takeout' ? address.complete_address : '九华南路189号' }}</view>
 						<image src="/static/images/common/black_arrow_right.png" class="right-icon"></image>
 					</view>
 					<!-- 外卖&自取switch begin -->
@@ -35,7 +35,7 @@
 					</view>
 					<!-- 外卖&自取switch end -->
 				</view>
-				<view class="location">距离您622m</view>
+				<view class="location">欢迎选购</view>
 			</view>
 			<!-- 滚动公告栏 begin -->
 			<view class="notices">
@@ -165,7 +165,7 @@
 		},
 		computed: {
 			...mapState(['orderType', 'address']),
-			productCartNum() {	//计算单个饮品添加到购物车的数量
+			productCartNum() {	//计算单个商品添加到购物车的数量
 				return id => this.cart.reduce((acc, cur) => {
 						if(cur.id === id) {
 							return acc += cur.number

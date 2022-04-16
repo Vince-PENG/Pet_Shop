@@ -1,7 +1,8 @@
 <template>
 	<view class="container">
 		<view class="brand">
-			<image src="https://wx.qlogo.cn/mmopen/vi_32/vM0qx5z4BQUQU4icZNct8Oib0Q0ypMW6hdhejkBxrTzibvYHtdyaQI85hsWvL6PoA3ic3Jjwn99YdfxEj1ib7gvaJeQ/132" class="avatar"></image>
+			<image src="/static/images/my/02.jpg" class="avatar"></image>
+			
 			<view class="username">tinypuppet</view>
 		</view>
 		<view class="user-form">
@@ -52,7 +53,7 @@
 					<image src="/static/images/common/closex.png" class="close-icon" @tap="closeTelphoneModal"></image>
 				</view>
 				<view class="tips">
-					为保障您正常使用喜茶GO小程序，请在绑定前确定新手机号未绑定喜茶GO。
+					为保障您正常使用小程序，请绑定手机号。
 				</view>
 				<view class="telphone-form">
 					<list-cell padding="30rpx 0">

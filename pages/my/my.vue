@@ -1,22 +1,21 @@
 <template>
 	<view class="container">
-		<image class="w-100" src="/static/images/my/my_backGroundImage.jpg" mode="widthFix"></image>
+		<image class="w-100" src="/static/images/my/my_back_groud.jpg" mode="widthFix"></image>
 		<view class="content">
 			<view class="welcome" @tap="openLoginPopup">
-				<view>你好 {{ isLogin ? userInfo.nickName : '立即登录开启爱宠之旅' }}</view>
-				<view class="font-size-base">爱由心生，宠爱有你</view>
+				<view>您好 {{ isLogin ? userInfo.nickName : '立即登录开启萌宠之旅' }}</view>
 			</view>
 			<!-- member card begin -->
 			<view class="member-card">
 				<view class="info">
 					<view class="title">
-						<view class="wenyue-font" @tap="openBenefits">爱宠会员</view>
+						<view class="wenyue-font" @tap="openBenefits">萌宠会员</view>
 						<view class="tips" @tap="openMember">
-							<view>成为爱宠会员享双倍积分</view>
+							<view>成为萌宠会员享双倍积分</view>
 							<image src="/static/images/my/icon_arrow.png"></image>
 						</view>
 					</view>
-					<image @tap="info" src="/static/images/home/headPicture.jpg" class="avatar"></image>
+					<image @tap="info" src="/static/images/my/02.jpg" class="avatar"></image>
 					<view class="badage">
 						Lv1
 					</view>
@@ -30,7 +29,7 @@
 					<view class="grid" hover-class="opacity-6">
 						<image src="/static/images/my/me_icon_quan.png"></image>
 						<view class="value">0</view>
-						<view class="title">爱宠劵</view>
+						<view class="title">萌宠优惠劵</view>
 					</view>
 				</view>
 			</view>
@@ -45,22 +44,22 @@
 				<view class="grid" @tap="openMember">
 					<image src="/static/images/my/my_tijian.png"></image>
 					<view class="title">
-						<view>免费体检券</view>
+						<view>体检券</view>
 						<view class="number">x1</view>
 					</view>
 				</view>
 				<view class="grid" @tap="openMember">
 					<image src="/static/images/my/my_youxian.png"></image>
 					<view class="title">
-						<view>优先券</view>
+						<view>洗护券</view>
 						<view class="number">x2</view>
 					</view>
 				</view>
 				<view class="grid" @tap="openMember">
 					<image src="/static/images/my/member_benefits/me_rights_icon_waimai_new.png"></image>
 					<view class="title">
-						<view>免运费券</view>
-						<view class="number">x2</view>
+						<view>会员八五折</view>
+						
 					</view>
 				</view>
 			</view>
@@ -70,12 +69,14 @@
 		<list-cell hover arrow>
 			<view class="list-cell-wrapper">
 				<view view="title">兑换中心</view>
-				<view class="subtitle">兑换爱宠会员、爱宠券</view>
+				<view class="subtitle">兑换萌宠会员、优惠券</view>
 			</view>
+		</list-cell>
+		
 		</list-cell>
 		<list-cell hover arrow>
 			<view class="list-cell-wrapper">
-				<view view="title">爱宠封面</view>
+				<view view="title">消息中心</view>
 			</view>
 		</list-cell>
 		<list-cell hover arrow>
@@ -83,14 +84,9 @@
 				<view view="title">联系客服</view>
 			</view>
 		</list-cell>
-		<list-cell hover arrow>
-			<view class="list-cell-wrapper">
-				<view view="title">消息中心</view>
-			</view>
-		</list-cell>
 		<list-cell hover arrow last>
 			<view class="list-cell-wrapper">
-				<view view="title">更多</view>
+				<view view="title">关于我们</view>
 			</view>
 		</list-cell>
 		<!-- 登录popup -->

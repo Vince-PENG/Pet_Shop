@@ -19,9 +19,9 @@
 		data() {
 			return {
 				remarks: [
-					{label: '打包', active: 0},
-					{label: '不打包', active: 0},
-					{label: '放在前台', active: 0},
+					{label: '明天上午九点到店', active: 0},
+					{label: '提前预约', active: 0},
+					{label: '半小时后', active: 0},
 				],
 				remark: ''
 			}

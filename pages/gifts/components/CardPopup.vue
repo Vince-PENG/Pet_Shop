@@ -24,14 +24,14 @@
 				</view>
 				<view class="row">
 					<view class="label">温馨提示：</view>
-					<view class="desc">成功购买阿喜有礼电子卡后，可在【我的】-【阿喜有礼】-【购买历史】-【查看详情】-【申请发票】申请预付卡发票</view>
+					<view class="desc">成功购买萌宠有礼电子卡后，可在【我的】-【萌宠有礼】-【购买历史】-【查看详情】-【申请发票】申请预付卡发票</view>
 				</view>
 				<view class="row">
 					<view class="label">购买须知：</view>
 					<view class="desc">
 						购买即视为阅读并同意
 						<navigator hover-class="none" class="tips">《使用须知》</navigator>及
-						<navigator hover-class="none" class="tips">《喜茶单用途商业预付卡章程》</navigator>
+						<navigator hover-class="none" class="tips">《萌宠单用途商业预付卡章程》</navigator>
 					</view>
 				</view>
 			</view>

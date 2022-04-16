@@ -3,13 +3,13 @@
 		<view class="bg-white p-30 d-flex align-items-center justify-content-between mb-20">
 			<view>
 				<text class="mr-20">联系电话</text>
-				<text>18266610000</text>
+				<text>18226281000</text>
 			</view>
 			<button type="primary" plain class="font-size-sm line-height-1">自动填写</button>
 		</view>
 		<view class="bg-white p-30 mb-20">
 			<view class="font-size-medium font-weight-bold mb-30">配送时间</view>
-			<view class="text-color-primary">到店实时处理，外送1小时内。</view>
+			<view class="text-color-primary">提前预约，可备注到店时间。</view>
 		</view>
 		<view class="bg-white pt-30 mb-20">
 			<view class="font-size-medium font-weight-bold mb-30 pl-30">商品列表</view>

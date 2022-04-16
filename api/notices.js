@@ -6,7 +6,7 @@ export default [{
 	},
 	{
 		"id": 7,
-		"content": "奥乐齐猫粮全新上市，营养丰富，快给您的爱宠下单吧~",
+		"content": "奥乐齐猫粮全新上市，营养丰富，快给您的萌宠下单吧~",
 		"image_id": 104726,
 		"image": "/static/images/order/order_light.jpg"
 	}
