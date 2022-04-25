@@ -50,59 +50,7 @@ export default [
         "new_order_invoice": true,
         "set_items": [],
         "showPaymentDetails": false,
-        "items": [
-            {
-                "id": 1,
-                "product_id": 551,
-                "sku_id": 1420,
-                "category_id": 11,
-                "quantity": 2,
-                "total_fee": "149",
-                "price": "149",
-                "name": "流心奶黄波波冰",
-                "sname": "流心奶黄波波冰",
-                "activity_name": "",
-                "discount_price": 0,
-                "show_trademark": false,
-                "name_image": "",
-                "activity_type": 0,
-                "specifications": [],
-                "attributes": [],
-                "materials": [
-                    {
-                        "material_id": 140,
-                        "name": "冰沙（推荐）",
-                        "price": "0.00",
-                        "material_group_id": 5
-                    },
-                    {
-                        "material_id": 33,
-                        "name": "少少冰",
-                        "price": "0.00",
-                        "material_group_id": 3
-                    },
-                    {
-                        "material_id": 409,
-                        "name": "常规吸管",
-                        "price": "0.00",
-                        "material_group_id": 27
-                    },
-                    {
-                        "material_id": 68,
-                        "name": "正常糖(推荐)",
-                        "price": "0.00",
-                        "material_group_id": 4
-                    },
-                    {
-                        "material_id": 149,
-                        "name": "标准（推荐）",
-                        "price": "0.00",
-                        "material_group_id": 6
-                    }
-                ],
-                "image": "/static/images/order/phy_cat_1.jpg"
-            }
-        ],
+        "items": [],
         "shop": {
             "id": 308,
             "name": "正大广场萌宠一号店",
@@ -192,35 +140,7 @@ export default [
         "new_order_invoice": false,
         "set_items": [],
         "showPaymentDetails": false,
-        "items": [
-            {
-                "id": 106805414,
-                "product_id": 161,
-                "sku_id": 1186,
-                "category_id": 20,
-                "quantity": 1,
-                "total_fee": "10.00",
-                "price": "10.00",
-                "name": "流沙牛角",
-                "sname": "流沙牛角",
-                "activity_name": "",
-                "discount_price": 0,
-                "show_trademark": false,
-                "name_image": "",
-                "activity_type": 0,
-                "specifications": [],
-                "attributes": [],
-                "materials": [
-                    {
-                        "material_id": 41,
-                        "name": "加热(推荐)",
-                        "price": "0.00",
-                        "material_group_id": 3
-                    }
-                ],
-                "image": "/static/images/order/wash_hightLevel.jpg"
-            }
-        ],
+        "items": [],
         "shop": {
             "id": 308,
             "name": "正大广场萌宠一号店",
@@ -311,57 +231,6 @@ export default [
         "set_items": [],
         "showPaymentDetails": false,
         "items": [
-            {
-                "id": 106803531,
-                "product_id": 660,
-                "sku_id": 1590,
-                "category_id": 12,
-                "quantity": 1,
-                "total_fee": "99.00",
-                "price": "99.00",
-                "name": "捣蛋南瓜波波冰",
-                "sname": "捣蛋南瓜波波冰",
-                "activity_name": "",
-                "discount_price": 0,
-                "show_trademark": false,
-                "name_image": "",
-                "activity_type": 0,
-                "specifications": [],
-                "attributes": [],
-                "materials": [
-                    {
-                        "material_id": 409,
-                        "name": "常规吸管",
-                        "price": "0.00",
-                        "material_group_id": 27
-                    },
-                    {
-                        "material_id": 149,
-                        "name": "标准（推荐）",
-                        "price": "0.00",
-                        "material_group_id": 6
-                    },
-                    {
-                        "material_id": 140,
-                        "name": "冰沙（推荐）",
-                        "price": "0.00",
-                        "material_group_id": 5
-                    },
-                    {
-                        "material_id": 48,
-                        "name": "少糖",
-                        "price": "0.00",
-                        "material_group_id": 4
-                    },
-                    {
-                        "material_id": 558,
-                        "name": "正常(推荐)",
-                        "price": "0.00",
-                        "material_group_id": 3
-                    }
-                ],
-                "image": "/static/images/order/wash_cat.jpg"
-            }
         ],
         "shop": {
             "id": 308,
