@@ -1,6 +1,3 @@
-
-**特别声明：本项目中的展示图片归Vince所有。**
-
 ### 源码地址
 
 github地址: [https://github.com/Vince-PENG/Pet_Shop.git](https://github.com/Vince-PENG/Pet_Shop.git)

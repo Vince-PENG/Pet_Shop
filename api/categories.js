@@ -992,7 +992,7 @@ export default [
         "skus": [
           {
             "id": 1323,
-            "name": "好茶",
+            "name": "",
             "appointable": false,
             "is_join_queue": 0,
             "is_now_making": 0
