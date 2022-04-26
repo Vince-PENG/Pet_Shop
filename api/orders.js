@@ -50,7 +50,11 @@ export default [
         "new_order_invoice": true,
         "set_items": [],
         "showPaymentDetails": false,
-        "items": [],
+        "items": [
+            {
+                "image": "/static/images/order/phy_cat_1.jpg"
+            }
+        ],
         "shop": {
             "id": 308,
             "name": "正大广场萌宠一号店",
@@ -140,7 +144,11 @@ export default [
         "new_order_invoice": false,
         "set_items": [],
         "showPaymentDetails": false,
-        "items": [],
+        "items": [
+            {
+                "image": "/static/images/order/wash_hightLevel.jpg"
+            }
+        ],
         "shop": {
             "id": 308,
             "name": "正大广场萌宠一号店",
@@ -231,6 +239,9 @@ export default [
         "set_items": [],
         "showPaymentDetails": false,
         "items": [
+            {
+                "image": "/static/images/order/wash_cat.jpg"
+            }
         ],
         "shop": {
             "id": 308,
