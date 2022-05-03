@@ -29,8 +29,9 @@
 			<list-cell padding="30rpx">
 				<view class="form-item">
 					<view class="label">收货地址</view>
-					<input type="text" @tap="chooseLocation" v-model="form.address" placeholder="点击选择" placeholder-class="placeholder"/>
-					<image src="/static/images/common/icon_jump_black3.png" class="jump-icon"></image>
+					<!-- <input type="text" @tap="chooseLocation" v-model="form.address" placeholder="点击选择" placeholder-class="placeholder"/> -->
+					<input type="text" v-model="form.address" placeholder="请填写收货地址" placeholder-class="placeholder"/>
+					<!-- <image src="/static/images/common/icon_jump_black3.png" class="jump-icon"></image> -->
 				</view>
 			</list-cell>
 			<list-cell padding="30rpx">
@@ -51,7 +52,7 @@
 		</view>
 		
 		<view class="save-btn">
-			<button type="info">保存</button>
+			<button type="info" @click="saveAddredd()">保存</button>
 		</view>
 	</view>
 </template>
@@ -95,6 +96,13 @@
 							)
 						}
 					}
+				})
+			},
+			saveAddredd() {
+				uni.showToast({
+					title: '保存成功',
+					icon: 'success',
+					duration:850
 				})
 			}
 		}

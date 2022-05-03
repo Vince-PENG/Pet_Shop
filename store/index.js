@@ -17,10 +17,23 @@ const store = new Vuex.Store({
 			"gender": 1,
 			"address": "有间大厦",
 			"complete_address": "九华南路189号",
-			"description": "ABC1234",
+			"description": "A栋5楼",
 			"latitude": "",
 			"longitude": "",
 			"is_default": 1
+		},
+		{
+			"id": 2,
+			"user_id": 2,
+			"name": "tony",
+			"phone": "13208259532",
+			"gender": 2,
+			"address": "信通大厦",
+			"complete_address": "南京东路388号",
+			"description": "西楼18楼",
+			"latitude": "",
+			"longitude": "",
+			"is_default": 0
 		}],
 		address: {},
 		remark: '明天下午三点到店'
