@@ -18,7 +18,11 @@
 						<view>当前没有订单</view>
 						<view>快去选择喜欢的商品吧</view>
 					</view>
-					<button type="primary" class="font-size-lg" hover-class="none">去选购</button>
+					
+					<navigator open-type="switchTab" url="/pages/index/index" hover-class="none">
+						<image src="/static/images/order/to_xuangou.jpg" mode="widthFix"></image>
+					</navigator>
+					
 				</view>
 			</swiper-item>
 			<!-- 当前订单 end -->
