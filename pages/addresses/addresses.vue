@@ -4,11 +4,9 @@
 			<list-cell v-for="(address, index) in addresses" :key="index" :line-left="false" @tap="choose(address)">
 				<view class="address">
 					<view class="info">
-						<!-- <view class="user-row">
-							{{ `${address.name}(${address.gender ? '女士' : '男士'}) ${address.phone}` }}
-						</view> -->
 						<view class="address-row">
-							<view class="is-default">默认地址</view>
+							<view v-if="address.is_default ==1" class="is-default">默认地址</view>
+							
 							<view class="address">{{ `${address.address} ${address.description}` }}</view>
 						</view>
 					</view>
